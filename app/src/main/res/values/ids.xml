@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Search" type="id">Search</item>
+    <item name="Create_appointment_slot" type="id">Create_appointment_slot</item>
+    <item name="History_of_appointments" type="id">History_of_appointments</item>
+    <item name="Messenger" type="id">Messenger</item>
+    <item name="Settings" type="id">Settings</item>
+    <item name="Logout" type="id">Logout</item>
+    <item name="options_menu" type="id" />
+</resources>

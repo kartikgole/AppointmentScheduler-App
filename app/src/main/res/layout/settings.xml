@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.studio.android.utaappointmentscheduler.settings">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/profile_pic" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp"
+        android:text="UserName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_username"
+        android:layout_below="@+id/tv_username"
+        android:layout_marginTop="11dp"
+        android:text="Department"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_email"
+        android:layout_below="@+id/tv_email"
+        android:layout_marginTop="15dp"
+        android:text="Email"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="15dp"
+        android:text="Mobile No"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/notifcation_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:text="Notifications"
+        android:textSize="20sp" />
+</RelativeLayout>

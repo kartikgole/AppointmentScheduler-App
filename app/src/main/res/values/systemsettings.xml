@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="server_ip">10.219.136.10:8080</string>-->
+    <string name="server_ip">10.182.77.180:8080</string>
+</resources>

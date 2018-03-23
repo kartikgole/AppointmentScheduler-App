@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/options_menu"
+    tools:context="com.studio.android.utaappointmentscheduler.Dashboard">
+    <item
+        android:id="@id/Search"
+        android:title="Search" />
+    <item
+        android:id="@+id/Create_appointment_slot"
+        android:checkable="false"
+        android:title="Create Appointment Slot" />
+    <item
+        android:id="@id/History_of_appointments"
+        android:title="History of Appointments" />
+    <item
+        android:id="@id/Messenger"
+        android:title="Messenger" />
+    <item
+        android:id="@id/Settings"
+        android:title="Settings" />
+    <item
+        android:id="@id/Logout"
+        android:title="Logout" />
+
+
+</menu>
